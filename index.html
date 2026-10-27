@@ -6,66 +6,73 @@
 		<meta name="viewport" content="width=160">
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <!--Required Scripts-->
-        <script src="IodineGBA/includes/TypedArrayShim.js"></script>
-        <script src="IodineGBA/core/Cartridge.js"></script>
-        <script src="IodineGBA/core/DMA.js"></script>
-        <script src="IodineGBA/core/Emulator.js"></script>
-        <script src="IodineGBA/core/Graphics.js"></script>
-        <script src="IodineGBA/core/RunLoop.js"></script>
-        <script src="IodineGBA/core/Memory.js"></script>
-        <script src="IodineGBA/core/IRQ.js"></script>
-        <script src="IodineGBA/core/JoyPad.js"></script>
-        <script src="IodineGBA/core/Serial.js"></script>
-        <script src="IodineGBA/core/Sound.js"></script>
-        <script src="IodineGBA/core/Timer.js"></script>
-        <script src="IodineGBA/core/Wait.js"></script>
-        <script src="IodineGBA/core/CPU.js"></script>
-        <script src="IodineGBA/core/Saves.js"></script>
-        <script src="IodineGBA/core/sound/FIFO.js"></script>
-        <script src="IodineGBA/core/sound/Channel1.js"></script>
-        <script src="IodineGBA/core/sound/Channel2.js"></script>
-        <script src="IodineGBA/core/sound/Channel3.js"></script>
-        <script src="IodineGBA/core/sound/Channel4.js"></script>
-        <script src="IodineGBA/core/CPU/ARM.js"></script>
-        <script src="IodineGBA/core/CPU/THUMB.js"></script>
-        <script src="IodineGBA/core/CPU/CPSR.js"></script>
-        <script src="IodineGBA/core/graphics/Renderer.js"></script>
-        <script src="IodineGBA/core/graphics/RendererShim.js"></script>
-        <script src="IodineGBA/core/graphics/RendererProxy.js"></script>
-        <script src="IodineGBA/core/graphics/BGTEXT.js"></script>
-        <script src="IodineGBA/core/graphics/BG2FrameBuffer.js"></script>
-        <script src="IodineGBA/core/graphics/BGMatrix.js"></script>
-        <script src="IodineGBA/core/graphics/AffineBG.js"></script>
-        <script src="IodineGBA/core/graphics/ColorEffects.js"></script>
-        <script src="IodineGBA/core/graphics/Mosaic.js"></script>
-        <script src="IodineGBA/core/graphics/OBJ.js"></script>
-        <script src="IodineGBA/core/graphics/OBJWindow.js"></script>
-        <script src="IodineGBA/core/graphics/Window.js"></script>
-        <script src="IodineGBA/core/graphics/Compositor.js"></script>
-        <script src="IodineGBA/core/memory/DMA0.js"></script>
-        <script src="IodineGBA/core/memory/DMA1.js"></script>
-        <script src="IodineGBA/core/memory/DMA2.js"></script>
-        <script src="IodineGBA/core/memory/DMA3.js"></script>
-        <script src="IodineGBA/core/cartridge/SaveDeterminer.js"></script>
-        <script src="IodineGBA/core/cartridge/SRAM.js"></script>
-        <script src="IodineGBA/core/cartridge/FLASH.js"></script>
-        <script src="IodineGBA/core/cartridge/EEPROM.js"></script>
-        <script src="IodineGBA/core/cartridge/GPIO.js"></script>
-        <!--Add your webpage scripts below-->
-        <script src="user_scripts/AudioGlueCode.js"></script>
-        <script src="user_scripts/base64.js"></script>
-        <script src="user_scripts/CoreGlueCode.js"></script>
-        <script src="user_scripts/GfxGlueCode.js"></script>
-        <script src="user_scripts/GUIGlueCode.js"></script>
-        <script src="user_scripts/JoyPadGlueCode.js"></script>
-        <script src="user_scripts/ROMLoadGlueCode.js"></script>
-        <script src="user_scripts/SavesGlueCode.js"></script>
-        <script src="user_scripts/WorkerGfxGlueCode.js"></script>
-        <script src="user_scripts/WorkerGlueCode.js"></script>
-        <script src="user_scripts/XAudioJS/swfobject.js"></script>
-        <script src="user_scripts/XAudioJS/resampler.js"></script>
-        <script src="user_scripts/XAudioJS/XAudioServer.js"></script>
-        <link rel="stylesheet" href="user_css/main.css">
+       <script src="TypedArrayShim.js"></script>
+<script src="Cartridge.js"></script>
+<script src="DMA.js"></script>
+<script src="Emulator.js"></script>
+<script src="Graphics.js"></script>
+<script src="RunLoop.js"></script>
+<script src="Memory.js"></script>
+<script src="IRQ.js"></script>
+<script src="JoyPad.js"></script>
+<script src="Serial.js"></script>
+<script src="Sound.js"></script>
+<script src="Timer.js"></script>
+<script src="Wait.js"></script>
+<script src="CPU.js"></script>
+<script src="Saves.js"></script>
+
+<script src="FIFO.js"></script>
+<script src="Channel1.js"></script>
+<script src="Channel2.js"></script>
+<script src="Channel3.js"></script>
+<script src="Channel4.js"></script>
+
+<script src="ARM.js"></script>
+<script src="THUMB.js"></script>
+<script src="CPSR.js"></script>
+
+<script src="Renderer.js"></script>
+<script src="RendererShim.js"></script>
+<script src="RendererProxy.js"></script>
+<script src="BGTEXT.js"></script>
+<script src="BG2FrameBuffer.js"></script>
+<script src="BGMatrix.js"></script>
+<script src="AffineBG.js"></script>
+<script src="ColorEffects.js"></script>
+<script src="Mosaic.js"></script>
+<script src="OBJ.js"></script>
+<script src="OBJWindow.js"></script>
+<script src="Window.js"></script>
+<script src="Compositor.js"></script>
+
+<script src="DMA0.js"></script>
+<script src="DMA1.js"></script>
+<script src="DMA2.js"></script>
+<script src="DMA3.js"></script>
+
+<script src="SaveDeterminer.js"></script>
+<script src="SRAM.js"></script>
+<script src="FLASH.js"></script>
+<script src="EEPROM.js"></script>
+<script src="GPIO.js"></script>
+
+<script src="AudioGlueCode.js"></script>
+<script src="base64.js"></script>
+<script src="CoreGlueCode.js"></script>
+<script src="GfxGlueCode.js"></script>
+<script src="GUIGlueCode.js"></script>
+<script src="JoyPadGlueCode.js"></script>
+<script src="ROMLoadGlueCode.js"></script>
+<script src="SavesGlueCode.js"></script>
+<script src="WorkerGfxGlueCode.js"></script>
+<script src="WorkerGlueCode.js"></script>
+
+<script src="swfobject.js"></script>
+<script src="resampler.js"></script>
+<script src="XAudioServer.js"></script>
+
+<link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div id="container">
