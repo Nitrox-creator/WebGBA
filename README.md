@@ -1,2 +1,2 @@
 https://nitrox-creator.github.io/WebGBA/
-Download the bios : https://romsfun.com/download/bios-game-boy-advance-229569/2
+Download the bios : https://dl.romsretro.com/bios/GBA_BIOS_for_Emulators%5Bromsretro.com%5D.zip
